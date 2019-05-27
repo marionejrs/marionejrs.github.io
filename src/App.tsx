@@ -1,25 +1,24 @@
 import React from 'react';
 import logo from './logo.svg';
+import Particles, { IParticlesParams } from 'react-particles-js'
 import './App.css';
+import particle from './particle-config.json'
+import { GitHub } from 'react-feather';
 
 const App: React.FC = () => {
+  let config : IParticlesParams = particle as IParticlesParams;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <main>
+      <header>
+          <p>Hello there, I'm JR!</p>
       </header>
-    </div>
+      <footer>
+          <a href="https://github.com/marionejrs" rel={"noopneer noreferrer"} target="_blank">
+              <GitHub size={50}/>
+          </a>
+      </footer>
+      <Particles className={"particles-js"} params={config}></Particles>
+    </main>
   );
 }
 
