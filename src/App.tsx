@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import Particles, { IParticlesParams } from 'react-particles-js'
+// import logo from './logo.svg';
+// import Particles, { IParticlesParams } from 'react-particles-js'
 import './App.scss';
-import particle from './particle-config.json'
-import { GitHub } from 'react-feather';
+// import particle from './particle-config.json'
+// import { GitHub } from 'react-feather';
 import ContactMail from './contact/ContactEmail';
 import Sidebar from './sidebar/Sidebar';
+import BackgroundLogo from './background/logo/BackgroundLogo';
 
 const App: React.FC = () => {
   return (
@@ -22,6 +23,7 @@ const App: React.FC = () => {
         </div>
       </div>
       <Sidebar></Sidebar>
+      <BackgroundLogo></BackgroundLogo>
     </main>
   );
 }
