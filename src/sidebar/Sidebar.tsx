@@ -8,16 +8,28 @@ export default class Sidebar extends Component {
             <nav>
                 <ul>
                     <li>
-                        <a>Home</a>
+                        <a href={"/"}>Home</a>
+                        <svg width="60" height="5">
+                            <line x1="0" y1="2" x2="60" y2="2" style={{ stroke: "rgb(255,0,0)", strokeWidth: 1}} />
+                        </svg>
                     </li>
                     <li>
-                        <a>About</a>
+                        <a href={"#about"}>About</a>
+                        <svg width="60" height="5">
+                            <line x1="0" y1="2" x2="60" y2="2" style={{ stroke: "rgb(255,0,0)", strokeWidth: 1}} />
+                        </svg>
                     </li>
                     <li>
-                        <a>Projects</a>
+                        <a href={"#projects"}>Projects</a>
+                        <svg width="60" height="5">
+                            <line x1="0" y1="2" x2="60" y2="2" style={{ stroke: "rgb(255,0,0)", strokeWidth: 1}} />
+                        </svg>
                     </li>
                     <li>
-                        <a>Contact</a>
+                        <a href={"#contact"}>Contact</a>
+                        <svg width="60" height="5">
+                            <line x1="0" y1="2" x2="60" y2="2" style={{ stroke: "rgb(255,0,0)", strokeWidth: 1}} />
+                        </svg>
                     </li>
                 </ul>
             </nav>

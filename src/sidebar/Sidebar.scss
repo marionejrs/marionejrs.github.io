@@ -14,12 +14,13 @@ ul {
 }
 
 ul li {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 400;
     font-size: 7pt;
-    line-height: 16pt;
+    line-height: 10pt;
     margin: auto 0;
     text-align: center;
 }
