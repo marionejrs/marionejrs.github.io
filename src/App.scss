@@ -13,9 +13,21 @@ body {
   position: relative;
   display: flex;
   flex : 1;
-  flex-direction: row;
+  flex-direction: column;
   align-items: stretch;
   min-height: 100vh;
+}
+
+.top-content {
+  display: flex;
+  flex : 4;
+}
+
+.main-content {
+  display: flex;
+  flex : 100;
+  flex-direction: row;
+  align-items: stretch;
 }
 
 /* ---- particles.js container ---- */

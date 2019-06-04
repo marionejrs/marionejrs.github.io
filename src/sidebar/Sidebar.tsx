@@ -7,10 +7,18 @@ export default class Sidebar extends Component {
         return (
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li>
+                        <a>Home</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                    <li>
+                        <a>Projects</a>
+                    </li>
+                    <li>
+                        <a>Contact</a>
+                    </li>
                 </ul>
             </nav>
         );
