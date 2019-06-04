@@ -6,17 +6,17 @@ import './App.scss';
 // import { GitHub } from 'react-feather';
 import ContactMail from './contact/ContactEmail';
 import Sidebar from './sidebar/Sidebar';
-import Header from './header/Header';
+import MainContainer from './main/MainContainer';
 import BackgroundLogo from './background/logo/BackgroundLogo';
 
 const App: React.FC = () => {
   return (
-    <main>
-      <ContactMail email={'marionejr.semilla@gmail.com'}></ContactMail>
-      <Header></Header>
+    <div className="container">
       <Sidebar></Sidebar>
+      <MainContainer></MainContainer>
       <BackgroundLogo></BackgroundLogo>
-    </main>
+    </div>
+    
   );
 }
 

@@ -1,11 +1,25 @@
+nav {
+    flex: 10;
+    display: flex;
+    align-items: center;
+}
+
 ul {
+    display: flex;
+    flex-direction: column;
+    position: relative;
     list-style-type: none;
     padding-left: 0pt;
+    margin: 0pt 10pt;
 }
 
 ul li {
+    display: block;
+    position: relative;
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 300;
-    font-size: 15pt;
-    line-height: 30pt;
+    font-size: 7pt;
+    line-height: 16pt;
+    margin: auto 0;
+    text-align: center;
 }

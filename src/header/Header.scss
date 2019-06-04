@@ -1,16 +1,30 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 10%;
+}
+
 header h3 {
-    font-size: '50px'
+    margin: 10pt 0pt;
+    font-size: 30pt;
+    line-height: 35pt;
+    text-align: right;
 }
 
 .secondary-header {
+    margin-bottom: 20pt 0pt;
     font-family: 'Montserrat', 'sans-serif';
     font-weight : 400;
-    font-size: 25pt;
+    font-size: 20pt;
     text-transform: uppercase;
+    text-align: right;
 }
 
 .catchline {
     font-family: 'Montserrat', 'sans-serif';
     font-weight: 300;
-    font-size: 15pt;
+    font-size: 12pt;
+    text-align: right;
 }
