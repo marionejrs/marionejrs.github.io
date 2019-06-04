@@ -1,16 +1,30 @@
 .contact-container {
     padding: 0 15pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-container .item-bottom-border {
+    transition: all 0.25s;
+    transform: scaleX(0.1);
+}
+
+.contact-container:hover .item-bottom-border {
+    transform: scaleX(1);
 }
 
 a {
     font-family: 'Montserrat', 'sans-serif';
     font-size: 6pt;
+    line-height: 10pt;
     color : #000;
     text-decoration: none;
+    text-align: center;
 }
 
 a:hover,
 a:active,
 a:visited {
     color : #000;
-} 
+}
