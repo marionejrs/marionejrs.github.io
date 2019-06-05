@@ -8,6 +8,7 @@ import ContactMail from './contact/ContactEmail';
 import Sidebar from './sidebar/Sidebar';
 import MainContainer from './main/MainContainer';
 import BackgroundLogo from './background/logo/BackgroundLogo';
+import BackgroundEffect from './background/effect/BackgroundEffect';
 import MenuTrigger from "./menu/trigger/MenuTrigger";
 
 const App: React.FC = () => {
@@ -19,9 +20,10 @@ const App: React.FC = () => {
       <section className="main-content">
         <Sidebar></Sidebar>
         <MainContainer></MainContainer>
-        <MenuTrigger></MenuTrigger>
+        <MenuTrigger size={20}></MenuTrigger>
       </section>
       <BackgroundLogo></BackgroundLogo>
+      <BackgroundEffect></BackgroundEffect>
     </div>
     
   );

@@ -11,7 +11,7 @@ ul li {
 }
 
 ul li .sidebar-item-bottom-border {
-    transition: all 0.25s;
+    transition: all 0.25s ease-out;
     transform: scaleX(0.1);
 }
 
