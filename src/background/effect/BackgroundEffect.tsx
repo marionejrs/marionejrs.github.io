@@ -43,8 +43,8 @@ export default class BackgroundEffect extends Component {
 
     componentDidMount() {
         let camera = new PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 1, 10000);
-        camera.position.y = 350;
-        camera.position.z = 300;
+        camera.position.y = 200;
+        camera.position.z = 100;
         camera.rotation.x = 0.35;
         this.camera = camera;
 
@@ -81,7 +81,7 @@ export default class BackgroundEffect extends Component {
 
 				vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
 
-				gl_PointSize = scale * ( 50.0 / - mvPosition.z );
+				gl_PointSize = scale * ( 35.0 / - mvPosition.z );
 
 				gl_Position = projectionMatrix * mvPosition;
 
