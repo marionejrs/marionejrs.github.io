@@ -14,17 +14,17 @@
     transform: scaleX(1);
 }
 
-a {
+.contact-container a {
     font-family: 'Montserrat', 'sans-serif';
     font-size: 6pt;
     line-height: 10pt;
-    color : #000;
+    color : #fff;
     text-decoration: none;
     text-align: center;
 }
 
-a:hover,
-a:active,
-a:visited {
-    color : #000;
+.contact-container a:hover,
+.contact-container a:active,
+.contact-container a:visited {
+    color : #fff;
 }

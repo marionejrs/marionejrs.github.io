@@ -43,7 +43,7 @@ export default class BackgroundEffect extends Component {
 
     componentDidMount() {
         let camera = new PerspectiveCamera( 120, window.innerWidth / window.innerHeight, 1, 10000);
-        camera.position.y = 225;
+        camera.position.y = 200;
         camera.position.z = 100;
         camera.rotation.x = 0.35;
         this.camera = camera;

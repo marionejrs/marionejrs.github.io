@@ -10,6 +10,14 @@ ul li {
     text-align: center;
 }
 
+ul li a,
+ul li a:hover,
+ul li a:visited,
+ul li a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
 ul li .sidebar-item-bottom-border {
     transition: all 0.25s ease-out;
     transform: scaleX(0.1);
