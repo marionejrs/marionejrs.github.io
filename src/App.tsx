@@ -20,9 +20,7 @@ const App: React.FC = () => {
       <section className="main-content">
         <Sidebar></Sidebar>
         <MainContainer></MainContainer>
-        <MenuTrigger size={20}></MenuTrigger>
       </section>
-      <BackgroundLogo></BackgroundLogo>
       <BackgroundEffect></BackgroundEffect>
     </div>
     
