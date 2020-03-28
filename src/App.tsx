@@ -10,19 +10,23 @@ import BackgroundLogo from './background/logo/BackgroundLogo';
 import BackgroundEffect from './background/effect/BackgroundEffect';
 import MenuTrigger from "./menu/trigger/MenuTrigger";
 import './App.scss';
+import { HashRouter as Router } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
-    <div className="container">
-      <section className="top-content">
-        <ContactMail email="marionejr.semilla@gmail.com"></ContactMail>
-      </section>
-      <section className="main-content">
-        <Sidebar></Sidebar>
-        <MainContainer></MainContainer>
-      </section>
-      <BackgroundEffect></BackgroundEffect>
-    </div>
+    <Router>
+      <div className="container">
+          <section className="top-content">
+            <ContactMail email="marionejr.semilla@gmail.com"></ContactMail>
+          </section>
+          <section className="main-content">
+            <Sidebar></Sidebar>
+            <MainContainer></MainContainer>
+            {/* <MenuTrigger size={20}></MenuTrigger> */}
+          </section>
+          <BackgroundEffect></BackgroundEffect>
+      </div>
+    </Router>
     
   );
 }
