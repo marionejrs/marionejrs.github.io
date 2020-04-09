@@ -17,12 +17,11 @@ const App: React.FC = () => {
     <Router>
       <div className="container">
           <section className="top-content">
-            <ContactMail email="marionejr.semilla@gmail.com"></ContactMail>
+            <ContactMail email="marione.semilla@gmail.com"></ContactMail>
           </section>
           <section className="main-content">
             <Sidebar></Sidebar>
             <MainContainer></MainContainer>
-            {/* <MenuTrigger size={20}></MenuTrigger> */}
           </section>
           <BackgroundEffect></BackgroundEffect>
       </div>
