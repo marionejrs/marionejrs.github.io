@@ -9,8 +9,9 @@ export default class Sidebar extends Component {
                 <ul>
                     <SidebarItem title="Home" link=""></SidebarItem>
                     <SidebarItem title="About" link="about"></SidebarItem>
-                    <SidebarItem title="Skills" link="skills"></SidebarItem>
-                    <SidebarItem title="Projects" link="projects"></SidebarItem>
+                    <SidebarItem title="Experience" link="experience"></SidebarItem>
+                    {/* <SidebarItem title="Skills" link="skills"></SidebarItem>
+                    <SidebarItem title="Projects" link="projects"></SidebarItem> */}
                     <SidebarItem title="Contact" link="contact"></SidebarItem>
                 </ul>
             </nav>

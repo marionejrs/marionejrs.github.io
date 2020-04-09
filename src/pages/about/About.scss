@@ -1,0 +1,13 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+
+    .about-column {
+        flex: 1 0 50%;
+    }
+}
+
+.experience-rows {
+    display: flex;
+    flex-direction: column;
+}

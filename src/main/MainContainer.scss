@@ -2,7 +2,30 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 10%;
+    margin-top: 3%;
     position: relative;
     flex: 90;
+    color: #fff;
+}
+
+.main-page {
+    .main-title {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    .main-subtitle {
+        font-size: 0.714285714285714rem;
+    }
+
+    .main-description {
+        font-size: 0.714285714285714rem;
+        margin-bottom: 25px;
+        line-height: 0.785714286rem;
+    }
+
+    .description-link {
+        color: #E609C8;
+    }
 }

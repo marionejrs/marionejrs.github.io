@@ -1,0 +1,18 @@
+.contact-icon {
+    color: #391552;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.contact-icon:visited,
+.contact-icon:hover,
+.contact-icon:active
+{
+    color: #391552;
+}

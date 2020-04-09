@@ -1,0 +1,30 @@
+.experience-box {
+    width: 350px;
+    height: 50px;
+    background-color: #fff;
+    color: #391552;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5px 0px;
+
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .company-logo {
+        width: 50px;
+        margin: 0px 10px 0px 5px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .company {
+        font-weight: bold;
+    }
+}

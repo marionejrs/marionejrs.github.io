@@ -9,7 +9,7 @@ export default class MainContainer extends Component {
         return (
             <main>
                 <Switch>
-                    {MainRoutes.map(route => <Route {...route}></Route>)}
+                    {MainRoutes.map((route, index) => <Route key={index} {...route}></Route>)}
                 </Switch>
             </main>
         );
