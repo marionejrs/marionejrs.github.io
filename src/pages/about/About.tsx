@@ -9,7 +9,10 @@ const About : FC = () => {
     let style : CSSProperties = isTabletOrMobile ? {
         width: '300px',
         textAlign: 'justify'
-    } : null;
+    } : {
+        width: '450px',
+        textAlign: 'justify'
+    };
 
     return (
         <div className="main-page about-page">
