@@ -1,4 +1,5 @@
-.experience-box {
+.experience-box,
+.experience-box-mobile {
     width: 350px;
     height: 50px;
     background-color: #fff;
@@ -27,4 +28,8 @@
     .company {
         font-weight: bold;
     }
+}
+
+.experience-box-mobile {
+    width: 280px;
 }

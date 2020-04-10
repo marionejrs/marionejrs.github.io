@@ -19,6 +19,12 @@ main {
         font-size: 0.714285714285714rem;
     }
 
+    .main-subtitle-mobile {
+        @extend .main-subtitle;
+        text-align: center;
+        padding: 10px;
+    }
+
     .main-description {
         font-size: 0.714285714285714rem;
         margin-bottom: 25px;

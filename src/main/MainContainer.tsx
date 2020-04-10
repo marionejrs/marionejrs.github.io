@@ -1,6 +1,5 @@
 import './MainContainer.scss';
 import React, { Component } from "react";
-import Header from "../header/Header";
 import { Switch, Route } from "react-router-dom";
 import MainRoutes from "./MainRoutes";
 

@@ -25,6 +25,12 @@ body {
   flex : 100;
   flex-direction: row;
   align-items: stretch;
+  padding: 5px;
+}
+
+.main-content-mobile {
+  @extend .main-content;
+  flex-direction: column;
 }
 
 .bold {
