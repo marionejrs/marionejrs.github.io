@@ -39,7 +39,7 @@ const About : FC = () => {
                     <em>You might be wondering what I can bring to the table?</em>
                     I am quick learner and adaptable to any situation and I have a detailed and 
                     organized approach in handling problems. I maintain my code clean and will 
-                    follow stringent coding standards. If you need someone like me, feel free to 
+                    follow stringent coding standards. If you need someone like me, feel free to&nbsp;
                     <Link to="/contact" className="description-link">contact</Link> me any time.<br/>
                     <br/>
                     <em>Where am I headed?</em><br/>
